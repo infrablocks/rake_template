@@ -83,9 +83,9 @@ DEPENDENCIES
   gem-release (~> 2.0)
   memfs (~> 1.0)
   rake (~> 13.0)
-  rake_circle_ci (~> 0.3)
-  rake_github (~> 0.3)
-  rake_ssh (~> 0.2)
+  rake_circle_ci (~> 0.7)
+  rake_github (~> 0.5)
+  rake_ssh (~> 0.4)
   rake_template!
   rspec (~> 3.9)
   simplecov (~> 0.16)
