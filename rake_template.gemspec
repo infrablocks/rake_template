@@ -6,8 +6,8 @@ require 'rake_template/version'
 Gem::Specification.new do |spec|
   spec.name = 'rake_template'
   spec.version = RakeTemplate::VERSION
-  spec.authors = ['Toby Clemson']
-  spec.email = ['tobyclemson@gmail.com']
+  spec.authors = ['InfraBlocks Maintainers']
+  spec.email = ['maintainers@infrablocks.io']
 
   spec.summary = 'Rake tasks for rendering templates.'
   spec.description = 'Allows templates to be rendered based on values ' +
