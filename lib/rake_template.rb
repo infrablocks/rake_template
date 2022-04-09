@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require 'rake_template/tasks'
 require 'rake_template/version'
 

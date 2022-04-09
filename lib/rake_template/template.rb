@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require 'erb'
 
 module RakeTemplate
@@ -15,7 +17,7 @@ module RakeTemplate
       parameters.each do |key, value|
         context.instance_variable_set("@#{key}", value)
       end
-      context_binding = context.instance_eval {binding}
+      context_binding = context.instance_eval { binding }
       ERB.new(@contents).result(context_binding)
     end
   end
