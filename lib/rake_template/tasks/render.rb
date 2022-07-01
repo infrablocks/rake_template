@@ -19,7 +19,7 @@ module RakeTemplate
 
       action do |t|
         $stdout.puts(
-          "Rendering template at #{t.template_file_path} "\
+          "Rendering template at #{t.template_file_path} " \
           "to #{t.output_file_path}..."
         )
         template = Template.from_file(t.template_file_path)
