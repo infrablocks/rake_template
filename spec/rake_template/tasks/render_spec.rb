@@ -115,9 +115,9 @@ describe RakeTemplate::Tasks::Render do
     end
 
     define_task(
-      template_file_path: template_file_path,
-      output_file_path: output_file_path,
-      vars: vars
+      template_file_path:,
+      output_file_path:,
+      vars:
     )
 
     Rake::Task['template:render'].invoke
